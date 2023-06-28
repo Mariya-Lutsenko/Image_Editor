@@ -23,12 +23,32 @@ body {
 }
 
 .editor {
-  border: 1px solid rgb(230, 150, 2);
   min-height: 35vmin;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+  gap: 20px;
+}
+.editor label {
+  font-size: 2.8vmin;
+  color: #2a2a2a;
+  font-weight: 400;
+}
+.editor input[type='range'] {
+  display: block;
+  width: 100%;
+  position: relative;
+  margin-top: 5px;
+}
+.flip-buttons {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+.flip-options {
+  margin-top: 10px;
 }
 
 .result {
-  border: 1px solid rgb(77, 119, 4);
+  position: relative;
 }

@@ -24,7 +24,25 @@
             </div>
             <div class="filter">
                 <label for="hue-rotate">Відтінок обертання</label>
-                <input type="range" min="0" max="360" value="100" id="contrast">
+                <input type="range" min="0" max="360" value="0" id="hue-rotate">
+            </div>
+            <div class="filter">
+                <label for="sepia">Сепія</label>
+                <input type="range" min="0" max="100" value="0" id="sepia">
+            </div>
+            <div class="flip-buttons">
+                <div class="flip-options">
+                    <input type="radio" name="flip" id="no-flip" checked>
+                    <label for="no-flip">Без повороту</label>
+                </div>
+                <div class="flip-options">
+                    <input type="radio" name="flip" id="flip-x">
+                    <label for="flip-x">Повернути по горизонталі</label>
+                </div>
+                <div class="flip-options">
+                    <input type="radio" name="flip" id="flip-y">
+                    <label for="flip-y">Повернути по вертикалі</label>
+                </div>
             </div>
         </div>
 
